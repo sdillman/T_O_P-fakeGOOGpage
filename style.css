@@ -1,0 +1,110 @@
+/* How to Comment */
+
+a {
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+	margin: 10px;
+	width: 60px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	position: static;
+}
+
+table {
+	background-color: blue;
+}
+
+td {
+	background-color: #aaa;
+	padding: 1px;
+	height: 2px;
+	width: 2px;
+}
+
+form input {
+	border: 1px solid #ccc;
+	line-height: 1.2em;
+	height: 1.2em;
+	font: 17px arial,sans-serif;
+	padding: 3px 5px 3px 5px;
+	width: 550px;
+}
+img {
+	height: 95px;
+	width: 269px;
+	padding-bottom: 25px;
+}
+.30x30 {
+	display: block;
+	height: 30px;
+	width: 30px;
+/*background-clip: padding-box;
+background-color: rgba(0,0,0,.3);
+border: 5px solid transparent;
+border-radius: 10px;
+min-height: 20px;
+min-width: 20px;
+height: 5px;
+width: 5px;*/
+}
+
+.main {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 150px;
+	width: 50%; /*needed for centering*/
+}
+
+.goog_logo {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navbar {
+	font-size: 0.8em;
+	margin-top: 10px;
+	position: relative;
+}
+
+.footer {
+	background-color: #eee;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	position: fixed;
+	width: 100%;
+}
+.left {
+	float: left;
+	margin-left: 20px;
+	text-align: left;
+}
+.right {
+	/*text-align: right;*/
+	float: right;
+	margin-right: 20px;
+	/*right: 0;*/
+}
+.buttons {
+	color: #333;
+	font-size: 0.7em;
+	font-weight: 600;
+	margin: 20px 10px 20px 10px;
+	padding: 5px;
+}
+.buttons:hover {
+	color: #000;
+}
+.group:after { /* The shiny new clearfix */
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+}				/* Forces elements to clearfix their children*/
